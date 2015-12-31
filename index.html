@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Guessing Game HTML/CSS Part 1
+  </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="index.css">
+  <script type="text/javascript" src="index.js"></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+  <div class="container">
+    
+    <div class="row text-center">
+      <h1>
+        Guessing Game HTML/CSS Part 1
+      </h1>
+      <p class="text-center lead">
+        Guess a number between 1 and a 100. We'll tell you if you're getting hotter or warmer!
+      </p>
+      <div class="col-md-offset-4 col-md-4 col-xs-6 text-center">
+        
+
+        <form>
+          <div class="form-group">
+            <input class="form-control" placeholder="A guess from 1-100"></input>
+            <p></p>
+            <button type="submit" class="btn btn-primary btn-lg">Guess</button>
+
+          </div>
+
+        </form>
+
+        <div>
+          <button class="btn-lg btn btn-default">Play again</button>
+          <button class="btn-lg btn btn-default">Give me a hint</button>
+        </div>
+        
+
+        <div class="message lead">
+          5 guesses remaining!
+        </div>
+
+      </div>  
+    </div>
+  </div>
+  
+</body>
+</html>
