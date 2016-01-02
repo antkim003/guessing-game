@@ -81,7 +81,7 @@ var guessingGame = function() {
   function guessMessage() {
     var outputString;
 
-    if (lowerOrHigher.length > 0) {
+    if (lowerOrHigher().length > 0) {
       outputString = lowerOrHigher() + ' and ' + distanceFrom();  
     } else {
       outputString = '!!!';
